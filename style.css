@@ -1,0 +1,395 @@
+/* START GLOBAL STYLE */
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.clear-fex{
+    clear: both;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+/* end GLOBAL STYLE */
+
+/*  start home section */
+
+   /*  start nav bar  section */
+.icon{
+   
+    position: fixed;
+    right: 80px;
+    bottom: 40px;
+    font-size: 50px;
+    width: 0px;
+    height: 30px;
+    z-index: 99;
+   
+}
+.icon i{
+    border-radius: 50px;
+   background-color: #1b140b;
+   color: #9c7c51;
+   padding: 7px;
+}
+.icon a{
+    text-decoration: none;
+}
+#nav{
+    background-color:rgba(0,0,0,.4);
+   z-index: 99;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+   
+}
+
+.container img{
+float: left;
+width: 200px;
+padding-top: 20px;
+font-weight: 400;
+}
+#nav .nav-links{
+float: right;
+list-style-type: none;
+
+}
+
+.container .nav-links li{
+   display: inline-block;
+    padding: 40px 20px;
+}
+.container .nav-links li a{
+    color:#FFFFFF;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+ /* end nav bar section  */
+
+#home{
+    background-image: url(./images/drew-coffman-1872.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position:center ;
+   
+}
+.side-bar{
+    height: 70px;
+    width: 35px;
+  background-color: #a99572;
+    position: fixed;
+    right: 5px;
+    top: 300px;
+    border-radius: 12px;
+}
+#home .caption{
+     text-align: center;
+     padding-top: 200px;
+     height:100%;
+     color: wheat;
+     background-color: rgba(0,0,0,.3);
+   
+}
+.caption p,.caption h1{
+    margin-bottom: 50px;
+    color: #FFFFFF;
+}
+.caption .pergragh{
+    width: 40%;
+    line-height: 40px;
+    margin: 0 auto 30px;
+  
+    
+}
+.caption h1{
+    font-family: "Alegreya";
+    font-size: 75px;
+    font-weight: 400;
+}
+.caption p{
+    font-family: "Alegreya Sans";
+    font-size: 24px;
+  
+}
+
+ .caption button{
+   border: 1px solid wheat;
+    border-radius: 12px;
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 10px 20px;
+
+    background-color: transparent;
+}
+
+.caption .bg-custom{
+border:none;
+margin:0px 0px 12px 12px;
+background-color: tan;
+}
+
+/*  end home section*/
+
+/* start about section */
+#about{
+    margin-bottom: 100px;
+   
+}
+.about-img{
+
+    width:50% ;
+    float: left;
+    padding-top: 50px;
+}
+.about-list ul{
+    padding-right: 100px;
+
+}
+.about-info{
+    width:50% ;
+    float: right;
+    padding-top: 100px;
+}
+.about-img img{
+    width: 100%;
+    padding-right: 50px;
+
+}
+.about-info li img{
+    width: 40px;
+    padding-top: 10px;
+}
+.about-info h2{
+line-height: 45px;
+font-size: 32px;
+padding-bottom: 50px; 
+font-weight: 400;
+}
+.about-info p{
+    line-height: 30px;
+    font-size: 17px;
+    padding-bottom: 50px;
+    padding-right: 0px;
+}
+.about-info ul li{
+    line-height: 60px;
+    list-style-type: none;
+   
+}
+.about-info ul{
+    padding-left: 0px;
+}
+   /* end about section */
+
+    /* start Location section */
+
+   .Location{
+    padding: 80px 0px;
+    background-color: #F8F8F8;
+
+   }
+   .Location-info{
+    
+    float: left;
+    width: 50%;
+    padding: 100px 0px;
+    line-height: 32px;
+    
+   }
+   .Location-info h2{
+    font-size: 32px;
+    font-weight: 400;
+    padding-bottom: 25px ;
+
+   }
+   .Location-info p{
+    padding-bottom: 20px ;
+    color: #686868;
+    
+   }
+   .Location-img{
+    float: right;
+    width: 50%;
+    padding: 0  0 0 35px;
+    
+   }
+   .Location-img img{
+    width: 100%;
+   
+   }
+   /* end Location section */
+
+    /* start baking section */
+    .our-baking{
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    .item{
+        width: 33.333%;
+        float: left;
+        text-align: center;
+        line-height: 32px;
+        padding:0 10px 0 20px ;
+    }
+   
+    .baking-info{
+        text-align: center;
+       padding: 50px 0px;
+    }
+    .baking-info h2{
+        padding-top: 30px;
+        font-weight: 400;
+    }
+    .baking-info p{
+        padding-top: 30px;
+        color: #686868;
+    }
+    .item p{
+        color: #686868;
+    }
+    .item h3{
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+    .item img{
+        width: 100%;
+        margin-bottom: 20px;
+      
+    }
+    
+    .item{
+       
+      
+    }
+    .inner{
+        
+
+    }
+
+    /* start Contact section */
+
+    .contact{
+        
+        background-color: #F8F8F8;
+        width: 100%;
+        margin-bottom:0;
+    }
+    
+.contact-info{
+    float: left;
+    width: 50%;
+    padding: 100px 50px 0 0;
+}
+
+.google-map{
+    float: right;
+    width: 50%;
+    padding: 50px 0 0 40px;
+}
+iframe {
+    width: 100%;
+}
+.contact-info ul p {
+    padding-bottom: 20px;
+}
+.contact-info li img{
+    width: 30px;
+    padding-right: 10px;
+    background-color:  rgb(156, 124, 81);
+   
+}
+    .contact-info h2{
+    line-height: 45px;
+    font-size: 32px;
+    padding-bottom: 50px; 
+    font-weight: 400;
+    }
+    .contact-info p{
+        line-height: 30px;
+        font-size: 17px;
+        padding-bottom: 50px;
+        padding-right: 0px;
+    }
+    .contact-info ul li {
+        line-height: 60px;
+        list-style-type: none;
+    }
+    .contact-info ul {
+        padding-left: 0;
+        padding-bottom: 30px;
+    }
+    
+    /* end Contact section */
+
+    /* start  Details section */
+    .Details-about{
+        width: 100%;
+        padding-top: 50px;
+        background-image:url(./images/contact-details-map.png) ;
+        background-repeat: no-repeat;
+        background-position:bottom right;
+        background-color: #403D38;
+        color: #969696;
+       
+    }
+    .Details{
+        width: 25%;
+        float: left;
+    }
+    .Contact-Details ul li img{
+        width: 40px;
+        padding-right: 20px;
+        
+    }
+    .Contact-Details li{
+        list-style-type: none;
+
+    }
+    .Details h4{
+       font-weight: 400;
+       padding: 50px 0 25px 0 ;
+       color: #FFFFFF;
+       
+    }
+    .Details ul{
+        padding-left: 20px;
+        line-height: 40px;
+    }
+    .Details.about-us p{
+        padding: 0 0 35px 0;
+        line-height: 30px;
+    }
+    .footer{
+        text-align: center;
+        padding-top: 50px;
+        background-color: #353330;
+    }
+    .parent img{
+        padding: 0 0 30px 0 ;
+    }
+
+    .parent p{
+       padding: 0 0 30px 0 ;
+       color: #777777;
+    }
+    .footer.parent img{
+        padding-bottom: 50px;
+        width: 100px;
+    }
+    .images img{
+        width: 50px;
+        padding-bottom: 100px;
+
+    }
+    @media screen and (max-width:600px) {
+        .item{width: 100%;}
+        
+    }
+
+  
+
+
+  
